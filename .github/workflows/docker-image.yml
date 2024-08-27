@@ -30,6 +30,6 @@ jobs:
         docker build -t miimote/docker-graphql:0.0.1 .
     - name: Push the Docker image
       run: |
-        docker push miimote/docker-graphql:0.0.1 .
+        docker push miimote/docker-graphql:0.0.1
 
         
